@@ -19,7 +19,7 @@ namespace Jeka.ViewModels
 
         public ItemsViewModel()
         {
-            Title = "Browse";
+            Title = "Заметки";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 

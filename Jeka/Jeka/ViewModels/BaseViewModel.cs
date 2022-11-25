@@ -11,6 +11,7 @@ namespace Jeka.ViewModels
     public class BaseViewModel : INotifyPropertyChanged
     {
         public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
+        public IDataAgents<Agent> DataAgents => DependencyService.Get<IDataAgents<Agent>>();
 
         bool isBusy = false;
         public bool IsBusy

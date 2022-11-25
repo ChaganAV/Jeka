@@ -27,7 +27,7 @@ namespace Jeka.ViewModels
 
             AgentTapped = new Command<Agent>(OnAgentSelected);
 
-            AddAgentCommand = new Command(OnAddItem);
+            AddAgentCommand = new Command(OnAddAgent);
         }
         async Task ExecuteLoadAgentCommand()
         {
@@ -66,9 +66,9 @@ namespace Jeka.ViewModels
             }
         }
 
-        private async void OnAddItem(object obj)
+        private async void OnAddAgent(object obj)
         {
-            await Shell.Current.GoToAsync(nameof(NewItemPage));
+            await Shell.Current.GoToAsync(nameof(NewAgentPage));
         }
         async void OnAgentSelected(Agent agent)
         {
