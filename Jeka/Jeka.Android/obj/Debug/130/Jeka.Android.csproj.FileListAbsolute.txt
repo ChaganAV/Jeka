@@ -634,3 +634,4 @@ D:\Projects\Jeka\Jeka\Jeka.Android\obj\Debug\130\stamp\_ConvertResourcesCases.st
 D:\Projects\Jeka\Jeka\Jeka.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 D:\Projects\Jeka\Jeka\Jeka.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 D:\Projects\Jeka\Jeka\Jeka.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+D:\Projects\Jeka\Jeka\Jeka.Android\obj\Debug\130\res\drawable\jeka_logo.png
