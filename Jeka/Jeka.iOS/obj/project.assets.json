@@ -1068,11 +1068,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Jeka\\Jeka\\Jeka.iOS\\Jeka.iOS.csproj",
+      "projectUniqueName": "C:\\Projects\\Csharp\\Jeka\\Jeka\\Jeka\\Jeka.iOS\\Jeka.iOS.csproj",
       "projectName": "Jeka.iOS",
-      "projectPath": "D:\\Projects\\Jeka\\Jeka\\Jeka.iOS\\Jeka.iOS.csproj",
+      "projectPath": "C:\\Projects\\Csharp\\Jeka\\Jeka\\Jeka\\Jeka.iOS\\Jeka.iOS.csproj",
       "packagesPath": "C:\\Users\\jwcha\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Jeka\\Jeka\\Jeka.iOS\\obj\\",
+      "outputPath": "C:\\Projects\\Csharp\\Jeka\\Jeka\\Jeka\\Jeka.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1093,8 +1093,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Projects\\Jeka\\Jeka\\Jeka\\Jeka.csproj": {
-              "projectPath": "D:\\Projects\\Jeka\\Jeka\\Jeka\\Jeka.csproj"
+            "C:\\Projects\\Csharp\\Jeka\\Jeka\\Jeka\\Jeka\\Jeka.csproj": {
+              "projectPath": "C:\\Projects\\Csharp\\Jeka\\Jeka\\Jeka\\Jeka\\Jeka.csproj"
             }
           }
         }

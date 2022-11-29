@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Jeka\\Jeka\\Jeka.Android\\Jeka.Android.csproj",
+      "projectUniqueName": "C:\\Projects\\Csharp\\Jeka\\Jeka\\Jeka\\Jeka.Android\\Jeka.Android.csproj",
       "projectName": "Jeka.Android",
-      "projectPath": "D:\\Projects\\Jeka\\Jeka\\Jeka.Android\\Jeka.Android.csproj",
+      "projectPath": "C:\\Projects\\Csharp\\Jeka\\Jeka\\Jeka\\Jeka.Android\\Jeka.Android.csproj",
       "packagesPath": "C:\\Users\\jwcha\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Jeka\\Jeka\\Jeka.Android\\obj\\",
+      "outputPath": "C:\\Projects\\Csharp\\Jeka\\Jeka\\Jeka\\Jeka.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "D:\\Projects\\Jeka\\Jeka\\Jeka\\Jeka.csproj": {
-              "projectPath": "D:\\Projects\\Jeka\\Jeka\\Jeka\\Jeka.csproj"
+            "C:\\Projects\\Csharp\\Jeka\\Jeka\\Jeka\\Jeka\\Jeka.csproj": {
+              "projectPath": "C:\\Projects\\Csharp\\Jeka\\Jeka\\Jeka\\Jeka\\Jeka.csproj"
             }
           }
         }

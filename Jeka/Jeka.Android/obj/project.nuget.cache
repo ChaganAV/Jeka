@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jaK8Y6FnEi2rPaImBsiGpWGkzoeHYCo80biDs1oKARIagOjpKi44PriqaYr0IQy7oypB57e+qp0IPhvEkW5ICg==",
+  "dgSpecHash": "t597Yog6AwDVg1z+Feftl2wws7iyTotiq83SkdbSPyEjVMeb8YsILELdzl9kFKnix40Cb+J+NEcePjTSfw8HkA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Jeka\\Jeka\\Jeka.Android\\Jeka.Android.csproj",
+  "projectFilePath": "C:\\Projects\\Csharp\\Jeka\\Jeka\\Jeka\\Jeka.Android\\Jeka.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jwcha\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\jwcha\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

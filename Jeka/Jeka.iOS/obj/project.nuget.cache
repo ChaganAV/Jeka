@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "urwERH3yNA/ijXnU+XRu8fkYBTRk5ibn+nVDs8oJMtTYyRAiGnhVf35o+5D1BzRwa+WzrHJatPNfAxHjmWLfAA==",
+  "dgSpecHash": "xmFKv1af8mbWbdPVPkUVI/gySZsQluU96IuIAksqi1sfBv8GMM2WI8CV0k6lHKQ3HfBuyo+TV0bPA/w45MIZgg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Jeka\\Jeka\\Jeka.iOS\\Jeka.iOS.csproj",
+  "projectFilePath": "C:\\Projects\\Csharp\\Jeka\\Jeka\\Jeka\\Jeka.iOS\\Jeka.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jwcha\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\jwcha\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "OKwrfGESTgSjoo7GRFi+GQl+pBNTOG+Dm7Psk0jxCyU72ysro934KHQCnv+cNvDCgj1jl3lLVocgWsT21vnfXA==",
+  "dgSpecHash": "/xblLTmwDVYXvp3OQtKFi8YxrTWzAEdq8jpl4X+fNqp8Fp1lkyqnsIsoLhDy4T8cBuomtR7n1RPy3AftA45FcA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Jeka\\Jeka\\Jeka\\Jeka.csproj",
+  "projectFilePath": "C:\\Projects\\Csharp\\Jeka\\Jeka\\Jeka\\Jeka\\Jeka.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jwcha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\jwcha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\jwcha\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\jwcha\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\jwcha\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
