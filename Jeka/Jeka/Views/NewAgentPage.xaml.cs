@@ -7,7 +7,6 @@ using Xamarin.Forms.Xaml;
 
 namespace Jeka.Views
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NewAgentPage : ContentPage
     {
         public Agent Agent { get; set; }

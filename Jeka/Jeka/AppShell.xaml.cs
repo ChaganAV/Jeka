@@ -13,6 +13,8 @@ namespace Jeka
             InitializeComponent();
             Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
             Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+            Routing.RegisterRoute(nameof(GazDetailPage), typeof(GazDetailPage));
+            Routing.RegisterRoute(nameof(NewAgentPage), typeof(NewAgentPage));
         }
 
     }
