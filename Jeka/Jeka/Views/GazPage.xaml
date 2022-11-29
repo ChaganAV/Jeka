@@ -4,7 +4,8 @@
              xmlns:model="clr-namespace:Jeka.Models"
              xmlns:local="clr-namespace:Jeka.ViewModels"
              x:Class="Jeka.Views.GazPage"
-             x:Name="GazItemsPage">
+             x:Name="GazItemsPage"
+             Title="{Binding Title}">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Список абонентов"
@@ -13,6 +14,33 @@
         </StackLayout>
     </ContentPage.Content>
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Добавить" Command=""/>
+        <ToolbarItem Text="Добавить" Command="{Binding AddAgentCommand}"/>
     </ContentPage.ToolbarItems>
+    <RefreshView x:DataType="local:GazViewModel" Command="{Binding LoadAgentCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
+        <CollectionView x:Name="AgentsListView"
+                ItemsSource="{Binding Agents}"
+                SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10" x:DataType="model:Agent">
+                        <Label Text="{Binding Name}" 
+                            LineBreakMode="NoWrap" 
+                            Style="{DynamicResource ListItemTextStyle}" 
+                            FontSize="16" />
+                        <Label Text="{Binding Description}" 
+                            LineBreakMode="NoWrap"
+                            Style="{DynamicResource ListItemDetailTextStyle}"
+                            FontSize="13" />
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer 
+                                NumberOfTapsRequired="1"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:GazViewModel}}, Path=ItemTapped}"		
+                                CommandParameter="{Binding .}">
+                            </TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </RefreshView>
 </ContentPage>

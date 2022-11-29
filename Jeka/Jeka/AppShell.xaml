@@ -32,6 +32,7 @@
     <TabBar>
         <ShellContent Title="О программе" Icon="icon_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
         <ShellContent Title="Заметки" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
+        <ShellContent Title="Газ" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:GazPage}"/>
     </TabBar>
 
     <!--
